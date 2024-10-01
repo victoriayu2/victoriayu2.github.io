@@ -9,9 +9,6 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold text-blue-600 mb-4">
           Welcome to My Website
         </h1>
-        <p className="text-lg text-gray-600">
-          Your one-stop solution for all things amazing!
-        </p>
       </header>
 
       <Image
