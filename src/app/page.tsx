@@ -1,6 +1,6 @@
 // src/app/page.tsx
 import Image from "next/image";
-import myImage from "../../VictoriaYuHeadshot.jpg";
+import myImage from "../../public/VictoriaYuHeadshot.jpg";
 
 export default function Home() {
   return (
