@@ -18,7 +18,7 @@ export default function Home() {
       />
 
       <p className="mt-6 text-lg text-gray-800 max-w-xl text-center">
-        Victoria is a sophomore CS major at Cornell University broadly interested in social impact, machine learning, and software engineering. She is on the WICC E-Board, Hack4Impact, and previously interned at Google. She is always looking for new experiences!
+        Victoria is a sophomore CS major at Cornell University broadly interested in social impact, machine learning, and software engineering. She is always looking for new experiences!
       </p>
     </main>
   );
