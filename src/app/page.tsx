@@ -1,25 +1,36 @@
-// src/app/page.tsx
 import Image from "next/image";
-import myImage from "../../public/VictoriaYuHeadshot.jpg";
+import myImage from "../../public/VictoriaYuHeadshot.png"; // Ensure this path and filename are correct
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
-      <header className="mb-10 text-center">
-        <h1 className="text-4xl font-extrabold text-blue-600 mb-4">
-          Welcome to My Website
+    <main className="flex flex-col items-center justify-center min-h-screen bg-white p-6">
+      <header className="mb-5 text-center w-full">
+        <h1 className="text-4xl font-bold text-black-600">
+          Hi, my name is Victoria!
         </h1>
       </header>
 
-      <Image
-        src={myImage}
-        alt="Headshot of Victoria Yu"
-        className="w-full max-w-md rounded-lg shadow-lg"
-      />
+      <div className="flex items-start space-x-6">
+        <div className="w-48 h-48 overflow-hidden rounded-full relative">
+          <Image
+            src={myImage}
+            alt="Headshot of Victoria Yu"
+            className="w-full h-full object-cover"
+          />
+        </div>
 
-      <p className="mt-6 text-lg text-gray-800 max-w-xl text-center">
-        Victoria is a sophomore CS major at Cornell University broadly interested in social impact, machine learning, and software engineering. She is always looking for new experiences!
-      </p>
+        <div className="flex flex-col text-left">
+          <p className="text-lg text-gray-700">
+            Victoria is a sophomore CS major at Cornell University originally from California.
+          </p>
+          <p className="text-lg text-gray-700">
+            She is broadly interested in social impact, machine learning, and software engineering.
+          </p>
+          <p className="text-lg text-gray-700">
+            She is always looking for opportunities to grow her technical skills and meet new people!
+          </p>
+        </div>
+      </div>
     </main>
   );
 }
